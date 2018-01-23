@@ -1062,3 +1062,7 @@ Main components
     -moz-transition-delay: 0s;
     transition-delay: 0s;
 }
+
+.space {
+	padding-bottom : 25px;
+}
