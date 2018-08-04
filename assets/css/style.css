@@ -925,7 +925,7 @@ Main components
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 40%;
     height: 100%;
     background: #F9F9F9;
     /* Force Hardware Acceleration in WebKit */
@@ -942,7 +942,7 @@ Main components
     transition-property: transform;
     -webkit-transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
-    transition-duration: 0.5s;
+    transition-duration: 1.0s;
     z-index: 3;
 }
 #main-nav ul {
@@ -950,7 +950,7 @@ Main components
     overflow-y: scroll;
 }
 #main-nav li {
-    height: 20%;
+    height: 13%;
 }
 #main-nav li a {
     position: relative;

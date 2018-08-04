@@ -5,7 +5,7 @@ jQuery(document).ready(function ($) {
 
 	$(window).load(function () {
 		$(".loaded").fadeOut();
-		$(".preloader").delay(1000).fadeOut("slow");
+		$(".preloader").delay(100).fadeOut("slow");
 	});
     /*---------------------------------------------*
      * Mobile menu
@@ -43,7 +43,7 @@ jQuery(document).ready(function ($) {
 
     $('.cd-menu-trigger').on('click', function (event) {
         event.preventDefault();
-        $('.home-main-content').addClass('move-out');
+        //$('.home-main-content').addClass('move-out');
         $('#main-nav').addClass('is-visible');
         $('.cd-shadow-layer').addClass('is-visible');
     });
@@ -85,7 +85,7 @@ jQuery(document).ready(function ($) {
      * STICKY scroll
      ---------------------------------------------*/
 
-//    $.localScroll();
+    $.localScroll();
 
 
 
