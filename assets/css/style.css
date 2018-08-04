@@ -490,7 +490,8 @@ textarea::-ms-input-placeholder
 } 
 .home-content p{
     font-size:25px;
-    margin-top:20px;
+    margin-top:40px;
+	margin-bottom:40px;
     color:#ecf0f2;
 }
 
@@ -607,13 +608,29 @@ textarea::-ms-input-placeholder
 .experience-content .content-details h5{
     color:#fff;
     font-size:18px;
+	font-weight:bold;
 }
 .experience-content .content-details h6{
     color:#ecf0f2;
-    font-size:16px;
+    font-size:14px;
+	margin-top: -16px;
 }
 .experience-content .content-details p{
     color:#ecf0f2;
+}
+.experience-content .content-details ul li{
+    color:#ecf0f2;
+	padding-bottom:5px;
+}
+.highlight-green{
+    color:#90ff57;
+	font-size:15px;
+	font-weight:bold;
+}
+.highlight-blue{
+    color:#08f9f9;
+	font-size:15px;
+	font-weight:bold;
 }
 .experience-content .content-details.content-border{
     border-bottom:1px solid #dadada;
