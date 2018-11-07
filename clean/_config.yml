@@ -1,6 +1,6 @@
 title: Researcher
-url: "https://ankitsultana.com"
-baseurl: "/researcher"
+url: "https://yuviabhi.github.io"
+baseurl: "/clean"
 
 markdown: kramdown
 
@@ -16,7 +16,7 @@ sass:
 
 nav:
  - name: "About"
-   link: "/researcher/"
+   link: "/clean/"
  - name: "Resume"
    link: "resume.pdf"
  - name: "Contact"
